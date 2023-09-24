@@ -1,0 +1,66 @@
+.card{
+    width: 16rem;
+    box-shadow: 0 0 10px blueviolet;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 83%;
+    margin: auto;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: end;
+}
+.para{
+    font-size: 1.2rem;
+}
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(192, 138, 243);
+    color: white;
+    border-radius: 10px;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.main-button{
+    width: 88%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.App{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+ul {
+    margin-left: 2rem;
+  }
+  
+   ul li {
+   margin-bottom: 1rem;
+  }
+
+  .fetch-data{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  
